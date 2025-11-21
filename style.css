@@ -40,11 +40,12 @@ body {
 .profilePicContainer {
     display: flex;
     height: 230px;
-    width: 40%;
+    width: 50%;
     max-width: 600px;
     border-radius: 1%;
     flex-direction: column;
     z-index: 0;
+    overflow: hidden;
     margin-top: 3%;
     padding: 1%;
     background-color: rgb(241, 241, 241);
@@ -104,6 +105,31 @@ section {
     box-shadow: 2px 3px 4px gray;
 }
 
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #0891b2;
+    color:white;
+    padding:1%;
+    gap: 30%;
+}
+.footerFinal{
+    width: 45%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 7%;
+}
+
+#icn{
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+        font-size: 25px
+
+}
 /* Hover logic */
 
 .myImg:hover {
@@ -128,9 +154,19 @@ section {
     }
 
     .profilePicContainer {
+
         display: flex;
         width: 90%;
         border-radius: 4%;
     }
 
+}
+.ic{
+    display: flex;
+    gap: 10px;
+}
+svg{
+
+    width: 20px;
+    height: 20px;
 }
